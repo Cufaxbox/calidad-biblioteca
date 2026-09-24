@@ -21,7 +21,7 @@
         <java.version>17</java.version>
 
         <sonar.organization>cufaxbox</sonar.organization>
-        <sonar.projectKey>Cufaxbox_calidad-biblioteca/</sonar.projectKey>
+        <sonar.projectKey>Cufaxbox_calidad-biblioteca</sonar.projectKey>
 
         <sonar.coverage.jacoco.xmlReportPaths>
             ${project.build.directory}/site/jacoco/jacoco.xml
