@@ -18,7 +18,8 @@ public class UsuarioService {
     public Usuario crearUsuario(String nombre, String email) {
 
         if (nombre == null || nombre.isBlank()) {
-            throw new RuntimeException("El nombre es obligatorio");
+            //throw new RuntimeException("El nombre es obligatorio");
+            throw new IllegalArgumentException("El nombre es obligatorio");
         }
 
         if (email == null || email.isBlank()) {
