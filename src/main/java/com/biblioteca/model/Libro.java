@@ -30,9 +30,6 @@ public class Libro {
         return id;
     }
 
-    public Long getId3() {
-        return id;
-    }
 
     public String getTitulo() {
         return titulo;
